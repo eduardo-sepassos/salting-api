@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74D7FCA6-0103-4B14-AFC9-2B2CC752D125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaltingApi", "src\SaltingApi\SaltingApi.csproj", "{DB8A2A7E-B02B-4FE5-9006-D96CF8411374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB8A2A7E-B02B-4FE5-9006-D96CF8411374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8A2A7E-B02B-4FE5-9006-D96CF8411374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8A2A7E-B02B-4FE5-9006-D96CF8411374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8A2A7E-B02B-4FE5-9006-D96CF8411374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB8A2A7E-B02B-4FE5-9006-D96CF8411374} = {74D7FCA6-0103-4B14-AFC9-2B2CC752D125}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B118F963-0140-4DB9-897C-5EE776E1DAD2}
+	EndGlobalSection
+EndGlobal
