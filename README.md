@@ -1,6 +1,6 @@
 # salting-api 📜
 
-**salting-api** is a small api with a InMemory DB to validate and work with the [salting-handler](https://github.com/eduardo-sepassos/salting-handler/pkgs/nuget/SaltingHandler) package.
+**salting-api** is a small api with a InMemory DB to validate.
 
 Salting adds a unique random value to each plaintext secret before hashing so identical inputs produce different hashes
 
