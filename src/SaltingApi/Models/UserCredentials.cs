@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SaltingApi.Models;
+﻿namespace SaltingApi.Models;
 
 public class UserCredentials
 {

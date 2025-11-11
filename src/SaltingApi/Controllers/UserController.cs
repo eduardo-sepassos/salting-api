@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using SaltingApi.Handlers;
 using SaltingApi.Models;
 using SaltingApi.Repository;
-using SaltingHandler.Entities;
-using SaltingHandler.Handlers.Passwords;
 
 namespace SaltingApi.Controllers;
 [ApiController]
@@ -35,7 +34,7 @@ public class UserController : ControllerBase
 
             await _userCredentialsRepository.AddAsync(storedCredentials);
 
-            return Created();
+            return Ok();
         }
         catch (Exception ex)
         {
